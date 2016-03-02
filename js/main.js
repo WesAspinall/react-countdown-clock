@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import Clock from './clock';
-
+import CountdownClock from './countdownClock';
 
 ReactDom.render(
   <div>
-    <Clock format="#hhmmss"/>
-    <Clock format="hh:mm:ss"/>
+    <CountdownClock />
   </div>,
   document.querySelector('.app')
 );

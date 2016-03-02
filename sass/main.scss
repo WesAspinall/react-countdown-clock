@@ -1,6 +1,18 @@
 // Put any @imports here
 // See Readme for a list of supported ones
 
-body {
-  background: #e2ebf3;
+.countdownClock{
+   font-family: 'Special Elite', cursive;
+   font-size: 5em;
+   text-shadow: 1px 2px 2px black;
+   width: 70%;
+   margin: 30px auto;
+
+}
+
+#state{
+  text-shadow: 3px black;
+  font-size: .7em;
+  color: #00F300;
+
 }
