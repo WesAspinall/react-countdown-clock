@@ -3,7 +3,7 @@ import ReactDom from 'react-dom';
 import Clock from './clock';
 
 
- ReactDom.render(
+ReactDom.render(
   <div>
     <Clock format="#hhmmss"/>
     <Clock format="hh:mm:ss"/>
